@@ -1,0 +1,26 @@
+{
+  "name": "scrollshopper.com",
+  "version": "1.0.0",
+  "description": "Just playing around",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/citypaul/testing-jenkins.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/citypaul/testing-jenkins/issues"
+  },
+  "homepage": "https://github.com/citypaul/testing-jenkins",
+  "devDependencies": {
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.12.32",
+    "karma-chrome-launcher": "^0.1.12",
+    "karma-jasmine": "^0.3.5",
+    "karma-phantomjs-launcher": "^0.1.4"
+  }
+}
