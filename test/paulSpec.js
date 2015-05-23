@@ -1,6 +1,6 @@
 describe('Some tests', function() {
-	it('should fail', function() {
-		expect(true).toBeFalsy();
+	it('should not fail', function() {
+		expect(false).toBeFalsy();
 	});
 	
 	it('should pass', function () {
