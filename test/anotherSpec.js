@@ -3,7 +3,7 @@ describe('Oh look more tests', function() {
         expect(true).toBeFalsy();
     });
 
-    it('should all be fine', function () {
+    it('should all be fine x', function () {
         expect(true).toBeTruthy();
     });
 
