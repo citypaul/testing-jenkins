@@ -7,6 +7,6 @@ describe('Oh look more tests', function() {
 
     it('should all be fine x', function () {
         expect(true).toBeTruthy();
-    });  
+    });   
 
 });
