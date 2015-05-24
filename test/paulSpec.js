@@ -11,5 +11,5 @@ describe('Some tests', function() {
 
     it('should add up', function () {
        expect(1+1).toEqual(2);
-    }); 
+    });
 });
