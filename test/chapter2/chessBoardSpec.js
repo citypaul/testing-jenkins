@@ -1,2 +1,7 @@
 var chessBoard = require('../../src/js/chapter2/chessBoard');
-console.log(chessBoard().smeg);
+
+describe('Chessboard', function () {
+   it('should fail', function () {
+      expect(chessBoard().smeg).toEqual('something');
+   });
+});
