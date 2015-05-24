@@ -6,6 +6,6 @@ describe('Some tests', function() {
 	});
 	
 	it('should pass', function () {
-		expect(false).toBeTruthy();
+		expect(true).toBeTruthy();
 	});
 });
