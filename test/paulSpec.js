@@ -1,5 +1,5 @@
 describe('Some tests', function() {
-	"use script";
+	"use strict";
 
 	it('should not fail', function() {
 		expect(false).toBeFalsy();
