@@ -14,6 +14,6 @@ describe('Some tests', function() {
     });
 
     it('should fail again', function () {
-        expect(1+1).toEqual(3); 
+        expect(1+1).toEqual(3);  
     });
 });
