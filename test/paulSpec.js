@@ -1,4 +1,6 @@
 describe('Some tests', function() {
+	"use script";
+
 	it('should not fail', function() {
 		expect(false).toBeFalsy();
 	});
@@ -6,5 +8,4 @@ describe('Some tests', function() {
 	it('should pass', function () {
 		expect(true).toBeTruthy();
 	});
-
 });
