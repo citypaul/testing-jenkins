@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+export curr_branch=$(git branch | grep "*" | sed "s/* //")
+if [ "$curr_branch" = 'master' ]; then
+   echo "Can't commit to master."
+   exit 1
+fi
