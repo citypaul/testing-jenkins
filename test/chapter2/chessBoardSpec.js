@@ -1,7 +1,9 @@
-var chessBoard = require('../../src/js/chapter2/chessBoard');
+var chessBoard = require('../../src/js/chapter2/chessBoard'),
+    board = chessBoard();
+"use strict";
 
 describe('Chessboard', function () {
    it('should fail', function () {
-      expect(chessBoard().smeg).toEqual('something');
+      expect(board.generateBoard()).toEqual("# # # #\n # # # #\n# # # #\n # # # #\n# # # #\n # # # #\n# # # #\n # # # #\n");
    });
 });
