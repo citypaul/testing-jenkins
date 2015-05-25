@@ -2,7 +2,7 @@ module.exports = function () {
 
     "use strict";
 
-    function generateBoard (size) {
+    function generateBoard(size) {
 
         var oddLine = "# # # #\n",
             evenLine = " # # # #\n",
