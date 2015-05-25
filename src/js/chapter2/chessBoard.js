@@ -6,11 +6,12 @@ module.exports = function () {
 
         var oddLine = "# # # #\n",
             evenLine = " # # # #\n",
-            result = '';
+            result = '',
+            i;
 
         size = size || 8;
 
-        for (var i = 1; i <= size; i = i + 1) {
+        for (i = 1; i <= size; i = i + 1) {
             result += (i % 2) ? oddLine : evenLine;
         }
         return result;
