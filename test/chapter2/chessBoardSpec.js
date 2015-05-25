@@ -18,7 +18,7 @@ describe('Chessboard', function () {
         );
     });
 
-    it('should generate a board based on a passed size', function () {
+    it('shoulds generate a board based on a passed size', function () {
         expect(board.generateBoard(2)).toEqual(
             "# # # #\n" +
             " # # # #\n"
