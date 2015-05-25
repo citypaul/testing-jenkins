@@ -18,10 +18,14 @@
   "homepage": "https://github.com/citypaul/testing-jenkins",
   "devDependencies": {
     "grunt": "^0.4.5",
+    "grunt-browserify": "^3.8.0",
+    "grunt-contrib-jasmine": "^0.8.2",
     "grunt-contrib-jshint": "^0.11.2",
     "jasmine-core": "^2.3.4",
+    "jasmine-node": "^1.14.5",
     "karma": "^0.12.32",
     "karma-chrome-launcher": "^0.1.12",
+    "karma-commonjs": "0.0.13",
     "karma-jasmine": "^0.3.5",
     "karma-junit-reporter": "^0.2.2",
     "karma-phantomjs-launcher": "^0.1.4"
