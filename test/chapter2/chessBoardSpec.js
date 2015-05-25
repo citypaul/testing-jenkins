@@ -1,6 +1,6 @@
 describe('Chessboard', function () {
     "use strict";
-    
+
     var chessBoard = require('../../src/js/chapter2/chessBoard'),
         board = chessBoard();
 
