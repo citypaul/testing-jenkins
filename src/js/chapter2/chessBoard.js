@@ -14,6 +14,6 @@ module.exports = function () {
     }
 
     return {
-        generateBoard: generateBoard
+        generateBoard: generateBoardx
     };
 };
