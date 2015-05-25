@@ -1,8 +1,9 @@
 describe('Chessboard', function () {
+    "use strict";
+    
     var chessBoard = require('../../src/js/chapter2/chessBoard'),
         board = chessBoard();
 
-    "use strict";
 
     it('should generate an 8 x 8 board by default', function () {
         expect(board.generateBoard()).toEqual(
