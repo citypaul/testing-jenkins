@@ -8,7 +8,7 @@ module.exports = function () {
             evenLine = " # # # #\n",
             result = '',
             i;
-
+//
         size = size || 8;
 
         for (i = 1; i <= size; i = i + 1) {
