@@ -14,7 +14,7 @@ module.exports = function () {
         for (i = 1; i <= size; i = i + 1) {
             result += (i % 2) ? oddLine : evenLine;
         }
-//        return result;
+        return result;
     }
 
     return {
